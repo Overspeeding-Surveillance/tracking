@@ -1,0 +1,5 @@
+.env
+.idea
+
+yolov5s.pt
+test.py
