@@ -82,3 +82,24 @@ class KalmanFilter:
         return x, y
 
 
+def get_detections(results):
+    readable_results = results.pandas().xyxy  # xmin, ymin, xmax, ymax, confidence, class, name
+    [result] = readable_results
+
+    boxes = []
+    classes = []
+    scores = []
+
+    for i in range(0, len(result)):
+        xmin = int(result['xmin'][i])
+        ymin = int(result['ymin'][i])
+        xmax = int(result['xmax'][i])
+        ymax = int(result['ymax'][i])
+        confidence = result['confidence'][i]
+        class_id = result['class'][i]
+        class_name = result['name'][i]
+        boxes.append([xmin, ymin, xmax, ymax])
+        scores.append(confidence)
+        classes.append(class_id)
+
+    return [np.array(boxes), np.array(classes), np.array(scores)]

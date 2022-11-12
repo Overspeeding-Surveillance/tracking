@@ -1,9 +1,6 @@
 import torch
 import cv2
 
-# TODO: add label to the bounding-boxes
-# TODO: add a condition check to see if its a vehicle
-
 # Text Parameters
 FONT_FACE = cv2.FONT_HERSHEY_SIMPLEX
 FONT_SCALE = 0.7
