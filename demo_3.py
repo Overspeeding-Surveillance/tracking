@@ -1,6 +1,6 @@
 import cv2
 import torch
-from custom_utils import EuclideanDistanceTracker
+from custom_utils.custom_utils import EuclideanDistanceTracker
 
 """
 This demo tracks the cars based on the euclidean distance (version 2)

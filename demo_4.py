@@ -1,8 +1,8 @@
 import cv2
 import torch
-from sort import *
+from custom_utils.sort import *
 import numpy as np
-from custom_utils import get_detections
+from custom_utils.custom_utils import get_detections
 
 """
 This demo tracks the cars based on the sort algorithm (version 1)

@@ -1,7 +1,7 @@
 import cv2
 import torch
 import random
-from custom_utils import get_points_within_distance
+from custom_utils.custom_utils import get_points_within_distance
 
 """
 This demo tracks the cars based on the euclidean distance (version 1)
