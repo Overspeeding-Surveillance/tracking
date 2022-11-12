@@ -1,6 +1,11 @@
 import cv2
 import torch
 
+'''
+This demo just detects the bounding boxes and its 
+center coordinates and displays it on the frame
+'''
+
 # Text Parameters
 FONT_FACE = cv2.FONT_HERSHEY_SIMPLEX
 FONT_SCALE = 0.7

@@ -3,6 +3,10 @@ import torch
 import random
 from custom_utils import get_points_within_distance
 
+"""
+This demo tracks the cars based on the euclidean distance (version 1)
+"""
+
 # Text Parameters
 FONT_FACE = cv2.FONT_HERSHEY_SIMPLEX
 FONT_SCALE = 0.7

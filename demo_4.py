@@ -4,6 +4,10 @@ from sort import *
 import numpy as np
 from custom_utils import get_detections
 
+"""
+This demo tracks the cars based on the sort algorithm (version 1)
+"""
+
 # Text Parameters
 FONT_FACE = 0
 FONT_SIZE = 0.5

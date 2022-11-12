@@ -2,6 +2,10 @@ import cv2
 import torch
 from custom_utils import EuclideanDistanceTracker
 
+"""
+This demo tracks the cars based on the euclidean distance (version 2)
+"""
+
 # Text Parameters
 FONT_FACE = 0
 FONT_SIZE = 0.5
