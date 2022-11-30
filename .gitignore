@@ -3,3 +3,7 @@
 
 yolov5s.pt
 test.py
+
+__pycache__
+
+captures/**/*
