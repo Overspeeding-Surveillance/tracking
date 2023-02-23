@@ -48,9 +48,3 @@ seaborn>=0.11.0
 # ultralytics  # HUB https://hub.ultralytics.com
 
 
-# For Sort
-filterpy
-scikit-image
-lap
-ffmpeg-python
-
